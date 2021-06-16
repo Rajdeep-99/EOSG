@@ -1,10 +1,13 @@
-#heading {
-    align-content: center;
-    width: 99vw;
+.heading {
+    position: relative;
     height: 20vw;
-    
+    width: 100%;
+    background:url("./Assets/stars-1436950_960_720.jpg") repeat-x;
+    color:white; /*Makes the contents of the division white*/
 }
-.p {
-    position: absolute;
-    background-color: white;
+.textheading {
+    position: absolute;/*So can shift the contents in the division*/
+    left: 27.5%;
+    top: 35%;
+    font-size: 60px;
 }
