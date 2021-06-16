@@ -1,11 +1,10 @@
-.heading {
-    background-color: aquamarine;
-    width: 100%;
-    height: 20%;
-
+#heading {
+    align-content: center;
+    width: 99vw;
+    height: 20vw;
+    
 }
-.title {
-    text-align:center;
-    text-decoration: solid;
-    text-justify: auto;
+.p {
+    position: absolute;
+    background-color: white;
 }
