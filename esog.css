@@ -2,12 +2,13 @@
     position: relative;
     height: 20vw;
     width: 100%;
-    background:url("./Assets/stars-1436950_960_720.jpg") repeat-x;
-    color:white; /*Makes the contents of the division white*/
+    background:rgb(172, 176, 153);
+    color:black; /*Makes the contents of the division black*/
 }
 .textheading {
     position: absolute;/*So can shift the contents in the division*/
     left: 27.5%;
     top: 35%;
+    font-weight: bolder;
     font-size: 60px;
 }
