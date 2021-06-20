@@ -12,3 +12,40 @@
     font-weight: bolder;
     font-size: 60px;
 }
+.container {
+    position: relative;
+    height:100vw;
+    width: 100%;
+    background-color: yellow;
+}
+.card {
+    position: absolute;
+    height: 25vw;
+    width: 20vw;
+    background-color: red;
+}
+#card1 {
+    left: 29%;
+}
+
+#card2 {
+    left: 53%;
+}
+#card3 {
+    top: 30vw;
+    left: 29%;
+}
+#card4 {
+    top: 30vw;
+    left: 53%;
+}
+
+#card5 {
+    top: 60vw;
+    left: 29%;
+}
+
+#card6 {
+    top: 60vw;
+    left: 53%;
+}
