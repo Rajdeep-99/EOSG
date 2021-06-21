@@ -19,11 +19,14 @@
 }
 .card {
     position: absolute;
+    border: 5px double black;
+    border-radius: 20px;
     height: 25vw;
     width: 20vw;
-    background-color: red;
 }
+
 #card1 {
+    background-color: aqua;
     left: 29%;
 }
 
