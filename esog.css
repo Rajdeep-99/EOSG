@@ -2,21 +2,20 @@
     position: relative;
     height: 20vw;
     width: 100%;
+    text-align: center;
     background:rgb(172, 176, 153);
     color:black; /*Makes the contents of the division black*/
 }
 .textheading {
-    position: absolute;/*So can shift the contents in the division*/
-    left: 27.5%;
+    position: relative;
     top: 35%;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 5vw;
 }
 .container {
     position: relative;
-    height:100vw;
+    height:90vw;
     width: 100%;
-    background-color: yellow;
 }
 .card {
     position: absolute;
