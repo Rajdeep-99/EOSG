@@ -1,7 +1,6 @@
 .heading {
     position: relative;
-    height: 20vw;
-    width: 100%;
+    padding: 8%;
     text-align: center;
     background:rgb(172, 176, 153);
     color:black; /*Makes the contents of the division black*/
