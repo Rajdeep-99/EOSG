@@ -22,16 +22,15 @@
     border-radius: 20px;
     height: 25vw;
     width: 20vw;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    transition: 0.3s; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);/*shadow depth on 4 sides and the color of shadow*/
+    transition: 0.3s; /*Time for the box-shadow effect*/ 
 }
 .card:hover{
     box-shadow: 0 8px 16px rgba(0,0,0,0.8);
 }
 
-
 #card1 {
-    left: 29%;
+    left: 23%;
 }
 
 #card2 {
@@ -39,7 +38,7 @@
 }
 #card3 {
     top: 30vw;
-    left: 29%;
+    left: 23%;
 }
 #card4 {
     top: 30vw;
@@ -48,7 +47,7 @@
 
 #card5 {
     top: 60vw;
-    left: 29%;
+    left: 23%;
 }
 
 #card6 {
