@@ -1,3 +1,10 @@
+.body{
+    margin: 0;
+    padding: 8%;
+}
+.div {
+    padding: 30px;
+}
 .heading {
     position: relative;
     padding: 8%;
@@ -28,9 +35,13 @@
 .card:hover{
     box-shadow: 0 8px 16px rgba(0,0,0,0.8);
 }
+.p{
+    text-align: justify;
+    font-size: 4vw;
+}
 
 #card1 {
-    left: 23%;
+    left: 23%;   
 }
 
 #card2 {
