@@ -35,35 +35,27 @@
 .card:hover{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.8);
 }
-img{
-    position: absolute;
-    height: 25vw;
-    width: 20vw;
-    border-radius: 20px;
-}
+
 #card1 {
     left: 23%;   
-    background-color: rgb(255, 72,0);
 }
 
 #card2 {
     left: 53%;
-    background-color: aquamarine;
 }
 #card3 {
     top: 30vw;
     left: 23%;
-    background-color: rgb(199, 32, 32);
 }
 #card4 {
     top: 30vw;
     left: 53%;
-    background-color: yellow;
 }
-
 #card5 {
     top: 60vw;
     left: 23%;
+    background: url("./Assets/interview.png") no-repeat;
+    background-size: 115%;
 }
 
 #card6 {
