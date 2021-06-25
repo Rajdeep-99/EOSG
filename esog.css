@@ -69,4 +69,6 @@
 #card6 {
     top: 60vw;
     left: 53%;
+    background: url("./Assets/cs.png") no-repeat;
+    background-size: 200%;
 }
