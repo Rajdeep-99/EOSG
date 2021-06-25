@@ -38,6 +38,8 @@
 
 #card1 {
     left: 23%;   
+    background: url("./Assets/prog_lang.png") no-repeat;
+    background-size: 110%;
 }
 
 #card2 {
