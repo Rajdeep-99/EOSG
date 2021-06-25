@@ -56,6 +56,8 @@
 #card4 {
     top: 30vw;
     left: 53%;
+    background: url("./Assets/web.png") no-repeat;
+    background-size: 215%;
 }
 #card5 {
     top: 60vw;
