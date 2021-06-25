@@ -44,6 +44,8 @@
 
 #card2 {
     left: 53%;
+    background: url("./Assets/theory.png") no-repeat;
+    background-size: 159%;
 }
 #card3 {
     top: 30vw;
