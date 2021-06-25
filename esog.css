@@ -50,6 +50,8 @@
 #card3 {
     top: 30vw;
     left: 23%;
+    background: url("./Assets/competitive.png") no-repeat;
+    background-size: 120%;
 }
 #card4 {
     top: 30vw;
