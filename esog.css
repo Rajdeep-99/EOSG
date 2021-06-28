@@ -20,12 +20,18 @@
 }
 .container {
     position: relative;
+    display: grid;
+    align-content: center;
+    justify-content: center;
     height:90vw;
     width: 100%;
 }
 .card {
     position: absolute;
     border: 2px solid black;
+    display: grid; 
+    align-content: center;
+    justify-content: center;
     border-radius: 20px;
     height: 25vw;
     width: 20vw;
@@ -35,7 +41,11 @@
 .card:hover{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.8);
 }
+.button {
+    position: relative;
+    top: 20px;
 
+}
 #card1 {
     left: 23%;   
     background: url("./Assets/prog_lang.png") no-repeat;
