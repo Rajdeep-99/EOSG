@@ -57,6 +57,7 @@
 }
 .button:hover{
     filter: brightness(120%);/*give the glowing effect*/
+    color: white;
 }
 .button:active{
     transition-duration: 0.1s;
