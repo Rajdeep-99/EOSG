@@ -43,8 +43,24 @@
 }
 .button {
     position: relative;
-    top: 20px;
-
+    top: 8vw;
+    height: 5vw;
+    width: 10vw;
+    font-size: 2vw;
+    padding: 5%; 
+    background-color: rgb(24, 207, 49);
+    border: none;
+    border-radius: 1vw;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+}
+.button:hover{
+    filter: brightness(120%);/*give the glowing effect*/
+}
+.button:active{
+    transform: translate(0,0.2rem);/*moves the button in y-direction giving the pressing effect*/
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.8);
 }
 #card1 {
     left: 23%;   
