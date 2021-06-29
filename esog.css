@@ -59,6 +59,7 @@
     filter: brightness(120%);/*give the glowing effect*/
 }
 .button:active{
+    transition-duration: 0.1s;
     transform: translate(0,0.2rem);/*moves the button in y-direction giving the pressing effect*/
     box-shadow: 0 4px 6px 0 rgba(0,0,0,0.8);
 }
