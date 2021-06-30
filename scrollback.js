@@ -1,10 +1,10 @@
 //Get the button
 var button=document.getElementById("scrlbck");
 
-//When the user scrolls down 500px from top of the document, show the button
+//When the user scrolls down 700px from top of the document, show the button
 window.onscroll = function(){
     
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700){
         button.style.display = "block";
     }
     else{
