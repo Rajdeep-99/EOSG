@@ -116,7 +116,34 @@
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(145, 148, 130);;
 }
+#back {
+    display: block;
+    position: absolute;
+    top:1vw;
+    left: 1vw;
+    height: 2.5vw;
+    width: 2.5vw;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer; 
+    background:url("./Assets/back.jpg") no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.55);
+}
 
+#back:hover{
+    transition-duration: 0.2s;
+    filter: brightness(117%);
+    height: 2.7vw;
+    width: 2.7vw;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.68);
+}
+#back:active{
+    transition-duration: 0.1s;
+    transform: translate(0,0.1rem);
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.72);
+}
 #scrlbck{
     display: none;/*Hidden by default*/
     position: fixed;/*fixed/sticky positon*/
@@ -137,8 +164,8 @@
     transition-duration: 0.2s;
     filter: brightness(150%);
     width: 3.2vw;
-    box-shadow: 0 5.5px 8.5px 0 rgba(0,0,0,1.2);
     height: 3.2vw;
+    box-shadow: 0 5.5px 8.5px 0 rgba(0,0,0,1.2);   
 }
 
 #scrlbck:active{
