@@ -46,16 +46,17 @@
     border-radius: 1vw;
     font-weight: bolder;
     cursor: pointer;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.7);
 }
 .button:hover{
     filter: brightness(120%);/*give the glowing effect*/
     color: white;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,1);
 }
 .button:active{
     transition-duration: 0.1s;
     transform: translate(0,0.2rem);/*moves the button in y-direction giving the pressing effect*/
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,1.2);
 }
 #card1 {
     left: 23%;   
@@ -110,4 +111,20 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(145, 148, 130);;
+}
+
+#scrlbck{
+    display: none;/*Hidden by default*/
+    position: fixed;/*fixed/sticky positon*/
+    bottom: 20px;/*place the button at the bottom of the page*/
+    right: 30px;/*place the button 30px from the right*/
+    z-index: 99;/*Make sure it does not operlap*/
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
 }
