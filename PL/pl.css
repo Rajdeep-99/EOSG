@@ -64,39 +64,45 @@
 }
 #card1 {
     left: 23%;   
-    background: url("./Assets/prog_lang.png") no-repeat;
-    background-size: 110%;
+    background: url("./Assets/C.jfif") no-repeat;
+    background-size: 100%;
+    background-position-y:2vw ;
 }
 
 #card2 {
     left: 53%;
-    background: url("./Assets/theory.png") no-repeat;
-    background-size: 159%;
+    background: url("./Assets/cplus.jpg") no-repeat;
+    background-size: 125%;
+    background-position-y:3vw ;
 }
 #card3 {
     top: 30vw;
     left: 23%;
-    background: url("./Assets/competitive.png") no-repeat;
-    background-size: 120%;
+    background: url("./Assets/python.png") no-repeat;
+    background-size: 98%;
 }
 #card4 {
     top: 30vw;
     left: 53%;
-    background: url("./Assets/web.png") no-repeat;
-    background-size: 215%;
+    background: url("./Assets/java.jpeg") no-repeat;
+    background-size: 100%;
+    background-position-y: 3vw;
 }
 #card5 {
     top: 60vw;
     left: 23%;
-    background: url("./Assets/interview.png") no-repeat;
-    background-size: 115%;
+    background: url("./Assets/JS.png") no-repeat;
+    background-size: 80%;
+    background-position-x: 1.9vw ;
+    background-position-y:1.6vw ;
 }
 
 #card6 {
     top: 60vw;
     left: 53%;
-    background: url("./Assets/cs.png") no-repeat;
-    background-size: 200%;
+    background: url("./Assets/kotlin.png") no-repeat;
+    background-position-y:5vw ;
+    background-size: 100%;
 }
 
 ::-webkit-scrollbar{
