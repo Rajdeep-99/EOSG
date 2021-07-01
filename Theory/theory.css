@@ -64,48 +64,41 @@
 }
 #card1 {
     left: 23%;   
-    background: url("./Assets/dbms.jpg") no-repeat;
-    background-size: 101%;
-    background-position-y:-3vw ;
+    background: url("./Assets/dbms.png") no-repeat;
+    background-size: 100%;
 }
 
 #card2 {
     left: 53%;
-    background: url("./Assets/networking.jpg") no-repeat;
+    background: url("./Assets/cn.jpg") no-repeat;
     background-size: 101%;
-    background-position-y: -5vw;
 }
 #card3 {
     top: 30vw;
     left: 23%;
-    background: url("./Assets/Os.jpg") no-repeat;
-    background-size: 95%;
-    background-position-y: 1vw;
-    background-position-x: 1.5vw;
+    background: url("./Assets/os.jpg") no-repeat;
+    background-size: 169%;
+    background-position-x: -12.5vw;
 }
 #card4 {
     top: 30vw;
     left: 53%;
-    background: url("./Assets/oops.jpg") no-repeat;
-    background-size: 100%;
-    background-position-y: 3vw;
-    background-position-x: -0.001vw;
+    background: url("./Assets/CA.jpg") no-repeat;
+    background-size: 102%;
+    background-position: -0.1vw -4vw ;
 }
 #card5 {
     top: 60vw;
     left: 23%;
-    background: url("./Assets/coding.jpg") no-repeat;
-    background-size: 290%;
-    background-position: -7vw -3vw;
-
+    background: url("./Assets/DM.jpg") no-repeat;
+    background-size: 100%;
 }
 
 #card6 {
     top: 60vw;
     left: 53%;
-    background: url("./Assets/aptitude.png") no-repeat;
-    background-size: 80%;
-    background-position: 2.1vw 1vw;
+    background: url("./Assets/se.jpeg") no-repeat;
+    background-size: 101%;
 }
 
 ::-webkit-scrollbar{
