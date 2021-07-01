@@ -64,45 +64,48 @@
 }
 #card1 {
     left: 23%;   
-    background: url("./Assets/C.jfif") no-repeat;
-    background-size: 100%;
-    background-position-y:2vw ;
+    background: url("./Assets/dbms.jpg") no-repeat;
+    background-size: 101%;
+    background-position-y:-3vw ;
 }
 
 #card2 {
     left: 53%;
-    background: url("./Assets/cplus.jpg") no-repeat;
-    background-size: 125%;
-    background-position-y:3vw ;
+    background: url("./Assets/networking.jpg") no-repeat;
+    background-size: 101%;
+    background-position-y: -5vw;
 }
 #card3 {
     top: 30vw;
     left: 23%;
-    background: url("./Assets/python.png") no-repeat;
-    background-size: 98%;
+    background: url("./Assets/Os.jpg") no-repeat;
+    background-size: 95%;
+    background-position-y: 1vw;
+    background-position-x: 1.5vw;
 }
 #card4 {
     top: 30vw;
     left: 53%;
-    background: url("./Assets/java.jpeg") no-repeat;
+    background: url("./Assets/oops.jpg") no-repeat;
     background-size: 100%;
     background-position-y: 3vw;
+    background-position-x: -0.001vw;
 }
 #card5 {
     top: 60vw;
     left: 23%;
-    background: url("./Assets/JS.png") no-repeat;
-    background-size: 80%;
-    background-position-x: 1.9vw ;
-    background-position-y:1.6vw ;
+    background: url("./Assets/coding.jpg") no-repeat;
+    background-size: 290%;
+    background-position: -7vw -3vw;
+
 }
 
 #card6 {
     top: 60vw;
     left: 53%;
-    background: url("./Assets/kotlin.png") no-repeat;
-    background-position-y:5vw ;
-    background-size: 100%;
+    background: url("./Assets/aptitude.png") no-repeat;
+    background-size: 80%;
+    background-position: 2.1vw 1vw;
 }
 
 ::-webkit-scrollbar{
