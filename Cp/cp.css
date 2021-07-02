@@ -64,48 +64,32 @@
 }
 #card1 {
     left: 23%;   
-    background: url("./Assets/dbms.jpg") no-repeat;
-    background-size: 101%;
-    background-position-y:-3vw ;
+    background: url("./Assets/c++stl.jpg") no-repeat;
+    background-size: 120%;
 }
 
 #card2 {
     left: 53%;
-    background: url("./Assets/networking.jpg") no-repeat;
-    background-size: 101%;
-    background-position-y: -5vw;
+    background: url("./Assets/java_cf.jpg") no-repeat;
+    background-size: 135%;
 }
 #card3 {
     top: 30vw;
     left: 23%;
-    background: url("./Assets/Os.jpg") no-repeat;
-    background-size: 95%;
-    background-position-y: 1vw;
-    background-position-x: 1.5vw;
+    background: url("./Assets/cp_guide.png") no-repeat;
+    background-size: 310%;
 }
 #card4 {
     top: 30vw;
     left: 53%;
-    background: url("./Assets/oops.jpg") no-repeat;
-    background-size: 100%;
-    background-position-y: 3vw;
-    background-position-x: -0.001vw;
+    background: url("./Assets/graph.png") no-repeat;
+    background-size: 170%;
 }
 #card5 {
     top: 60vw;
-    left: 23%;
-    background: url("./Assets/coding.jpg") no-repeat;
-    background-size: 290%;
-    background-position: -7vw -3vw;
-
-}
-
-#card6 {
-    top: 60vw;
-    left: 53%;
-    background: url("./Assets/aptitude.png") no-repeat;
-    background-size: 80%;
-    background-position: 2.1vw 1vw;
+    left: 37.99%;
+    background: url("./Assets/dp.jpg") no-repeat;
+    background-size: 100%;
 }
 
 ::-webkit-scrollbar{
