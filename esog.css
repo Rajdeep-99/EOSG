@@ -127,7 +127,7 @@
     height: 3vw;
     border: none;
     outline: none;
-    background:url("/Assets/scrollback.png") no-repeat;
+    background:url("/scrollback.png") no-repeat;
     background-size: 100%;
     cursor: pointer;
     border-radius: 100%;
