@@ -76,7 +76,7 @@
 #card3 {
     top: 30vw;
     left: 23%;
-    background: url("./Assets/os.jpg") no-repeat;
+    background: url("./Assets/oss.jpg") no-repeat;
     background-size: 169%;
     background-position-x: -12.5vw;
 }
@@ -129,7 +129,7 @@
     outline: none;
     border-radius: 100%;
     cursor: pointer; 
-    background:url("D:/Web_Dev_Projects/EOSG/Assets/back.jpg") no-repeat;
+    background:url("./Assets/back.jpg") no-repeat;
     background-size: 100%;
     box-shadow: 0 0.5vw 0.5vw 0 rgba(0, 0, 0, 0.55);
 }
@@ -156,7 +156,7 @@
     height: 3vw;
     border: none;
     outline: none;
-    background:url("D:/Web_Dev_Projects/EOSG/Assets/scrollback.png") no-repeat;
+    background:url("./Assets/scrollback.png") no-repeat;
     background-size: 100%;
     cursor: pointer;
     border-radius: 100%;
